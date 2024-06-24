@@ -1,7 +1,5 @@
 <?php
 
-// require_once 'vendor/autoload.php';
-
 use NewfoldLabs\WP\Module\Survey\Data\Constants;
 use NewfoldLabs\WP\Module\Survey\Survey;
 use NewfoldLabs\WP\Module\Survey\Service;
