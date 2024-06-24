@@ -1,6 +1,7 @@
 import domReady from '@wordpress/dom-ready';
-import { eventsAPI } from '../constants';
 import apiFetch from '@wordpress/api-fetch';
+
+import { eventsAPI } from '../constants';
 
 domReady( () => {
 	const domObserver = new window.MutationObserver( ( mutationList ) => {
@@ -9,7 +10,7 @@ domReady( () => {
 				for ( const addedNode of mutation.addedNodes ) {
 					if (
 						typeof addedNode === 'object' &&
-						typeof addedNode?.querySelectorAll === 'function'
+						typeof addedNode.querySelectorAll === 'function'
 					) {
 						addedNode
 							.querySelectorAll( '[data-survey-action]' )

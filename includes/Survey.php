@@ -5,8 +5,10 @@ namespace NewfoldLabs\WP\Module\Survey;
 use NewfoldLabs\WP\Module\Survey\WPAdmin\WPAdmin;
 use NewfoldLabs\WP\ModuleLoader\Container;
 
+/**
+ * Manages all the functionalities for the module.
+ */
 class Survey {
-
 	/**
 	 * Dependency injection container.
 	 *
@@ -15,9 +17,9 @@ class Survey {
 	protected $container;
 
 	/**
-	 * Constructor.
+	 * Constructor for the Survey class.
 	 *
-	 * @param Container $container
+	 * @param Container $container The module container.
 	 */
 	public function __construct( Container $container ) {
 

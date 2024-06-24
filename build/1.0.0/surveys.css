@@ -694,25 +694,40 @@
 }
 
 /*# sourceMappingURL=ReactToastify.css.map */
-/*!********************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/styles/app.scss ***!
-  \********************************************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/Surveys/styles/app.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
 .nfd-survey-toast {
   display: flex;
   flex-direction: row;
 }
-.nfd-survey-toast__icon {
-  width: 25%;
+.nfd-survey-toast__comment {
+  display: flex;
+  align-items: flex-start;
 }
 .nfd-survey-toast__content {
-  width: 75%;
-  margin-left: 5px;
+  margin-left: 12px;
   display: flex;
   flex-direction: column;
+}
+.nfd-survey-toast__content__heading {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.nfd-survey-toast__content__subheading {
+  margin-bottom: 12px;
 }
 .nfd-survey-toast__content__buttons {
   display: flex;
   flex-direction: row;
+}
+.nfd-survey-toast__content__buttons--icon {
+  cursor: pointer;
+  margin-right: 24px;
+}
+
+:root {
+  --toastify-toast-width: 400px;
 }
 
 /*# sourceMappingURL=surveys.css.map*/

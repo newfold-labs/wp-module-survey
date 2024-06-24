@@ -12,8 +12,8 @@ import { render } from '@wordpress/element';
 /**
  * Internal dependencies
  */
-import { SURVEYS_DIV } from './constants';
-import Toast from './components/Toast';
+import { SURVEYS_DIV } from '../constants';
+import App from './components/App';
 
 domReady( () => {
 	renderModal( SURVEYS_DIV );
@@ -33,5 +33,5 @@ const renderModal = ( elementId ) => {
 		document.body.append( modalRoot );
 	}
 
-	render( <Toast />, modalRoot );
+	render( <App />, modalRoot );
 };

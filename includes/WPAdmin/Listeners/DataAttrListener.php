@@ -2,12 +2,22 @@
 
 namespace NewfoldLabs\WP\Module\Survey\WPAdmin\Listeners;
 
+/**
+ * Manages all the data-* listening related functionalities for the module.
+ */
 class DataAttrListener {
-
+	/**
+	 * Constructor for the DataAttrListener class.
+	 */
 	public function __construct() {
 		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_data_attr_listener' ) );
 	}
 
+	/**
+	 * Enqueues the data-* attribute listener script.
+	 *
+	 * @return void
+	 */
 	public function enqueue_data_attr_listener() {
 		$asset_file = NFD_SURVEY_BUILD_DIR . '/dataAttrListener.asset.php';
 

@@ -20,8 +20,8 @@
     "webpack-merge": "^5.8.0"
   },
   "scripts": {
-    "build": "wp-scripts build ./src/surveys.js ./src/Scripts/dataAttrListener.js",
-    "start": "wp-scripts start ./src/surveys.js ./src/Scripts/dataAttrListener.js"
+    "build": "wp-scripts build ./src/Surveys/surveys.js ./src/Scripts/dataAttrListener.js",
+    "start": "wp-scripts start ./src/Surveys/surveys.js ./src/Scripts/dataAttrListener.js"
   },
   "dependencies": {
     "@wordpress/element": "^6.1.0",

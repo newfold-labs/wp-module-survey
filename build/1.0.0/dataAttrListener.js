@@ -13,10 +13,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   SURVEYS_DIV: () => (/* binding */ SURVEYS_DIV),
 /* harmony export */   dataRestRoute: () => (/* binding */ dataRestRoute),
 /* harmony export */   eventsAPI: () => (/* binding */ eventsAPI),
+/* harmony export */   surveys: () => (/* binding */ surveys),
 /* harmony export */   wpRestURL: () => (/* binding */ wpRestURL)
 /* harmony export */ });
-const SURVEYS_DIV = 'nfd-surveys';
-const wpRestURL = window.nfdSurveyDataAttrListener.restUrl;
+const SURVEYS_DIV = 'nfd-survey';
+const surveys = window.nfdSurveySurveys?.queue;
+const wpRestURL = window.nfdSurveyDataAttrListener?.restUrl;
 const dataRestRoute = 'newfold-data/v1';
 const eventsAPI = `${wpRestURL}/${dataRestRoute}/events`;
 
@@ -117,9 +119,9 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_dom_ready__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/dom-ready */ "@wordpress/dom-ready");
 /* harmony import */ var _wordpress_dom_ready__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_dom_ready__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../constants */ "./src/constants.js");
-/* harmony import */ var _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @wordpress/api-fetch */ "@wordpress/api-fetch");
-/* harmony import */ var _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/api-fetch */ "@wordpress/api-fetch");
+/* harmony import */ var _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../constants */ "./src/constants.js");
 
 
 
@@ -128,12 +130,12 @@ _wordpress_dom_ready__WEBPACK_IMPORTED_MODULE_0___default()(() => {
     for (const mutation of mutationList) {
       if (mutation.type === 'childList') {
         for (const addedNode of mutation.addedNodes) {
-          if (typeof addedNode === 'object' && typeof addedNode?.querySelectorAll === 'function') {
+          if (typeof addedNode === 'object' && typeof addedNode.querySelectorAll === 'function') {
             addedNode.querySelectorAll('[data-survey-action]').forEach(ele => {
               ele.addEventListener('click', function (e) {
                 if (e.target.getAttribute('data-survey-option') !== null) {
-                  _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_2___default()({
-                    url: _constants__WEBPACK_IMPORTED_MODULE_1__.eventsAPI,
+                  _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_1___default()({
+                    url: _constants__WEBPACK_IMPORTED_MODULE_2__.eventsAPI,
                     method: 'POST',
                     data: {
                       action: this.getAttribute('data-survey-action'),

@@ -2,10 +2,250 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/components/Toast/index.jsx":
-/*!****************************************!*\
-  !*** ./src/components/Toast/index.jsx ***!
-  \****************************************/
+/***/ "./src/Surveys/static/icons/toast/angry.svg":
+/*!**************************************************!*\
+  !*** ./src/Surveys/static/icons/toast/angry.svg ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ReactComponent: () => (/* binding */ SvgAngry),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _path, _path2;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+
+var SvgAngry = function SvgAngry(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none"
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    fill: "#196BDE",
+    fillRule: "evenodd",
+    d: "M12 21.6a9.6 9.6 0 0 0 9.6-9.6 9.6 9.6 0 1 0-9.6 9.6M8.4 10.8a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m8.4-1.2a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0m-9.043 7.054a1.2 1.2 0 0 0 1.697 0 3.6 3.6 0 0 1 5.092 0 1.2 1.2 0 1 0 1.697-1.697 6 6 0 0 0-8.486 0 1.2 1.2 0 0 0 0 1.697",
+    clipRule: "evenodd"
+  })), _path2 || (_path2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    stroke: "#fff",
+    strokeLinecap: "round",
+    strokeWidth: 2,
+    d: "m6.968 6.566 3.759 1.368M13.273 7.934l3.758-1.368"
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMiAyMS41OTk5QzE3LjMwMiAyMS41OTk5IDIxLjYgMTcuMzAxOSAyMS42IDExLjk5OTlDMjEuNiA2LjY5Nzk3IDE3LjMwMiAyLjM5OTkgMTIgMi4zOTk5QzYuNjk4MDkgMi4zOTk5IDIuNDAwMDIgNi42OTc5NyAyLjQwMDAyIDExLjk5OTlDMi40MDAwMiAxNy4zMDE5IDYuNjk4MDkgMjEuNTk5OSAxMiAyMS41OTk5Wk04LjQwMDAyIDEwLjc5OTlDOS4wNjI3NiAxMC43OTk5IDkuNjAwMDIgMTAuMjYyNiA5LjYwMDAyIDkuNTk5OUM5LjYwMDAyIDguOTM3MTcgOS4wNjI3NiA4LjM5OTkgOC40MDAwMiA4LjM5OTlDNy43MzcyOSA4LjM5OTkgNy4yMDAwMiA4LjkzNzE3IDcuMjAwMDIgOS41OTk5QzcuMjAwMDIgMTAuMjYyNiA3LjczNzI5IDEwLjc5OTkgOC40MDAwMiAxMC43OTk5Wk0xNi44IDkuNTk5OUMxNi44IDEwLjI2MjYgMTYuMjYyOCAxMC43OTk5IDE1LjYgMTAuNzk5OUMxNC45MzczIDEwLjc5OTkgMTQuNCAxMC4yNjI2IDE0LjQgOS41OTk5QzE0LjQgOC45MzcxNyAxNC45MzczIDguMzk5OSAxNS42IDguMzk5OUMxNi4yNjI4IDguMzk5OSAxNi44IDguOTM3MTcgMTYuOCA5LjU5OTlaTTcuNzU3MzkgMTYuNjU0MUM4LjIyNjAxIDE3LjEyMjcgOC45ODU4MiAxNy4xMjI3IDkuNDU0NDQgMTYuNjU0MUMxMC44NjAzIDE1LjI0ODIgMTMuMTM5NyAxNS4yNDgyIDE0LjU0NTYgMTYuNjU0MUMxNS4wMTQyIDE3LjEyMjcgMTUuNzc0IDE3LjEyMjcgMTYuMjQyNiAxNi42NTQxQzE2LjcxMTMgMTYuMTg1NCAxNi43MTEzIDE1LjQyNTcgMTYuMjQyNiAxNC45NTY5QzEzLjg5OTUgMTIuNjEzOCAxMC4xMDA1IDEyLjYxMzggNy43NTczOSAxNC45NTY5QzcuMjg4NzUgMTUuNDI1NyA3LjI4ODc1IDE2LjE4NTQgNy43NTczOSAxNi42NTQxWiIgZmlsbD0iIzE5NkJERSIvPgo8cGF0aCBkPSJNNi45Njc5IDYuNTY1OTJMMTAuNzI2NyA3LjkzNCIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHBhdGggZD0iTTEzLjI3MjYgNy45MzQwOEwxNy4wMzE0IDYuNTY2IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K");
+
+/***/ }),
+
+/***/ "./src/Surveys/static/icons/toast/comment.svg":
+/*!****************************************************!*\
+  !*** ./src/Surveys/static/icons/toast/comment.svg ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ReactComponent: () => (/* binding */ SvgComment),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+
+var SvgComment = function SvgComment(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none"
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    fill: "#404040",
+    fillRule: "evenodd",
+    d: "M5 3h14a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3h-4.586l-4.707 4.707c-.602.603-1.614.22-1.701-.593L8 21v-4H5a3 3 0 0 1-2.995-2.824L2 14V6a3 3 0 0 1 3-3m14 2H5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4a1 1 0 0 1 1 1v2.584l3.293-3.291a1 1 0 0 1 .576-.284L14 15h5a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1",
+    clipRule: "evenodd"
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik01IDNIMTlDMjAuNjU2OSAzIDIyIDQuMzQzMTUgMjIgNlYxNEMyMiAxNS42NTY5IDIwLjY1NjkgMTcgMTkgMTdIMTQuNDE0TDkuNzA3MTEgMjEuNzA3MUM5LjEwNDUzIDIyLjMwOTcgOC4wOTI4MiAyMS45Mjc3IDguMDA1OTggMjEuMTEzNkw4IDIxVjE3SDVDMy40MDIzMiAxNyAyLjA5NjM0IDE1Ljc1MTEgMi4wMDUwOSAxNC4xNzYzTDIgMTRWNkMyIDQuMzQzMTUgMy4zNDMxNSAzIDUgM1pNMTkgNUg1QzQuNDQ3NzIgNSA0IDUuNDQ3NzIgNCA2VjE0QzQgMTQuNTUyMyA0LjQ0NzcyIDE1IDUgMTVIOUM5LjU1MjI4IDE1IDEwIDE1LjQ0NzcgMTAgMTZWMTguNTg0TDEzLjI5MjkgMTUuMjkyOUMxMy40NDkyIDE1LjEzNjYgMTMuNjUxOSAxNS4wMzc0IDEzLjg2ODYgMTUuMDA4N0wxNCAxNUgxOUMxOS41NTIzIDE1IDIwIDE0LjU1MjMgMjAgMTRWNkMyMCA1LjQ0NzcyIDE5LjU1MjMgNSAxOSA1WiIgZmlsbD0iIzQwNDA0MCIvPgo8L3N2Zz4K");
+
+/***/ }),
+
+/***/ "./src/Surveys/static/icons/toast/happy.svg":
+/*!**************************************************!*\
+  !*** ./src/Surveys/static/icons/toast/happy.svg ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ReactComponent: () => (/* binding */ SvgHappy),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+
+var SvgHappy = function SvgHappy(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none"
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    fill: "#196BDE",
+    fillRule: "evenodd",
+    d: "M12 21.6a9.6 9.6 0 0 0 9.6-9.6 9.6 9.6 0 1 0-9.6 9.6m5.398-11.5.002-.1a2 2 0 1 0-3.997.1zM7.006 14a3 3 0 0 0-.006.2c0 2.209 2.239 4 5 4s5-1.791 5-4q0-.1-.006-.2zm3.392-3.9.002-.1a2 2 0 1 0-3.998.1z",
+    clipRule: "evenodd"
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMiAyMS41OTk5QzE3LjMwMiAyMS41OTk5IDIxLjYgMTcuMzAxOSAyMS42IDExLjk5OTlDMjEuNiA2LjY5Nzk3IDE3LjMwMiAyLjM5OTkgMTIgMi4zOTk5QzYuNjk4MDkgMi4zOTk5IDIuNDAwMDIgNi42OTc5NyAyLjQwMDAyIDExLjk5OTlDMi40MDAwMiAxNy4zMDE5IDYuNjk4MDkgMjEuNTk5OSAxMiAyMS41OTk5Wk0xNy4zOTc2IDEwLjA5OTlDMTcuMzk5MiAxMC4wNjY4IDE3LjQgMTAuMDMzNCAxNy40IDkuOTk5OTFDMTcuNCA4Ljg5NTM1IDE2LjUwNDYgNy45OTk5MSAxNS40IDcuOTk5OTFDMTQuMjk1NCA3Ljk5OTkxIDEzLjQgOC44OTUzNSAxMy40IDkuOTk5OTFDMTMuNCAxMC4wMzM0IDEzLjQwMDggMTAuMDY2OCAxMy40MDI1IDEwLjA5OTlIMTcuMzk3NlpNNy4wMDYyNiAxMy45OTk5QzcuMDAyMTggMTQuMDY2MiA3LjAwMDEyIDE0LjEzMjggNy4wMDAxMiAxNC4xOTk5QzcuMDAwMTIgMTYuNDA5IDkuMjM4NjIgMTguMTk5OSAxMi4wMDAxIDE4LjE5OTlDMTQuNzYxNiAxOC4xOTk5IDE3LjAwMDEgMTYuNDA5IDE3LjAwMDEgMTQuMTk5OUMxNy4wMDAxIDE0LjEzMjggMTYuOTk4MSAxNC4wNjYyIDE2Ljk5NCAxMy45OTk5SDcuMDA2MjZaTTEwLjM5NzYgMTAuMDk5OUMxMC4zOTkyIDEwLjA2NjggMTAuNCAxMC4wMzM0IDEwLjQgOS45OTk5MUMxMC40IDguODk1MzUgOS41MDQ2MiA3Ljk5OTkxIDguNDAwMDIgNy45OTk5MUM3LjI5NTQyIDcuOTk5OTEgNi40MDAwMiA4Ljg5NTM1IDYuNDAwMDIgOS45OTk5MUM2LjQwMDAyIDEwLjAzMzQgNi40MDA4NSAxMC4wNjY4IDYuNDAyNDggMTAuMDk5OUgxMC4zOTc2WiIgZmlsbD0iIzE5NkJERSIvPgo8L3N2Zz4K");
+
+/***/ }),
+
+/***/ "./src/Surveys/static/icons/toast/lame.svg":
+/*!*************************************************!*\
+  !*** ./src/Surveys/static/icons/toast/lame.svg ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ReactComponent: () => (/* binding */ SvgLame),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _path, _rect;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+
+var SvgLame = function SvgLame(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none"
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    fill: "#196BDE",
+    fillRule: "evenodd",
+    d: "M12 21.6a9.6 9.6 0 0 0 9.6-9.6 9.6 9.6 0 1 0-9.6 9.6M8.4 10.8a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m8.4-1.2a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0",
+    clipRule: "evenodd"
+  })), _rect || (_rect = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("rect", {
+    width: 10,
+    height: 2.4,
+    x: 7,
+    y: 14,
+    fill: "#fff",
+    rx: 1.2
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMiAyMS41OTk5QzE3LjMwMiAyMS41OTk5IDIxLjYgMTcuMzAxOSAyMS42IDExLjk5OTlDMjEuNiA2LjY5Nzk3IDE3LjMwMiAyLjM5OTkgMTIgMi4zOTk5QzYuNjk4MDkgMi4zOTk5IDIuNDAwMDIgNi42OTc5NyAyLjQwMDAyIDExLjk5OTlDMi40MDAwMiAxNy4zMDE5IDYuNjk4MDkgMjEuNTk5OSAxMiAyMS41OTk5Wk04LjQwMDAyIDEwLjc5OTlDOS4wNjI3NiAxMC43OTk5IDkuNjAwMDIgMTAuMjYyNiA5LjYwMDAyIDkuNTk5OUM5LjYwMDAyIDguOTM3MTcgOS4wNjI3NiA4LjM5OTkgOC40MDAwMiA4LjM5OTlDNy43MzcyOSA4LjM5OTkgNy4yMDAwMiA4LjkzNzE3IDcuMjAwMDIgOS41OTk5QzcuMjAwMDIgMTAuMjYyNiA3LjczNzI5IDEwLjc5OTkgOC40MDAwMiAxMC43OTk5Wk0xNi44IDkuNTk5OUMxNi44IDEwLjI2MjYgMTYuMjYyOCAxMC43OTk5IDE1LjYgMTAuNzk5OUMxNC45MzczIDEwLjc5OTkgMTQuNCAxMC4yNjI2IDE0LjQgOS41OTk5QzE0LjQgOC45MzcxNyAxNC45MzczIDguMzk5OSAxNS42IDguMzk5OUMxNi4yNjI4IDguMzk5OSAxNi44IDguOTM3MTcgMTYuOCA5LjU5OTlaIiBmaWxsPSIjMTk2QkRFIi8+CjxyZWN0IHg9IjciIHk9IjE0IiB3aWR0aD0iMTAiIGhlaWdodD0iMi40IiByeD0iMS4yIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K");
+
+/***/ }),
+
+/***/ "./src/Surveys/static/icons/toast/sad.svg":
+/*!************************************************!*\
+  !*** ./src/Surveys/static/icons/toast/sad.svg ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ReactComponent: () => (/* binding */ SvgSad),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+
+var SvgSad = function SvgSad(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none"
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    fill: "#196BDE",
+    fillRule: "evenodd",
+    d: "M12 21.6a9.6 9.6 0 0 0 9.6-9.6 9.6 9.6 0 1 0-9.6 9.6M8.4 10.8a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m8.4-1.2a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0m-9.043 7.054a1.2 1.2 0 0 0 1.697 0 3.6 3.6 0 0 1 5.092 0 1.2 1.2 0 1 0 1.697-1.697 6 6 0 0 0-8.486 0 1.2 1.2 0 0 0 0 1.697",
+    clipRule: "evenodd"
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMiAyMS41OTk5QzE3LjMwMiAyMS41OTk5IDIxLjYgMTcuMzAxOSAyMS42IDExLjk5OTlDMjEuNiA2LjY5Nzk3IDE3LjMwMiAyLjM5OTkgMTIgMi4zOTk5QzYuNjk4MDkgMi4zOTk5IDIuNDAwMDIgNi42OTc5NyAyLjQwMDAyIDExLjk5OTlDMi40MDAwMiAxNy4zMDE5IDYuNjk4MDkgMjEuNTk5OSAxMiAyMS41OTk5Wk04LjQwMDAyIDEwLjc5OTlDOS4wNjI3NiAxMC43OTk5IDkuNjAwMDIgMTAuMjYyNiA5LjYwMDAyIDkuNTk5OUM5LjYwMDAyIDguOTM3MTcgOS4wNjI3NiA4LjM5OTkgOC40MDAwMiA4LjM5OTlDNy43MzcyOSA4LjM5OTkgNy4yMDAwMiA4LjkzNzE3IDcuMjAwMDIgOS41OTk5QzcuMjAwMDIgMTAuMjYyNiA3LjczNzI5IDEwLjc5OTkgOC40MDAwMiAxMC43OTk5Wk0xNi44IDkuNTk5OUMxNi44IDEwLjI2MjYgMTYuMjYyOCAxMC43OTk5IDE1LjYgMTAuNzk5OUMxNC45MzczIDEwLjc5OTkgMTQuNCAxMC4yNjI2IDE0LjQgOS41OTk5QzE0LjQgOC45MzcxNyAxNC45MzczIDguMzk5OSAxNS42IDguMzk5OUMxNi4yNjI4IDguMzk5OSAxNi44IDguOTM3MTcgMTYuOCA5LjU5OTlaTTcuNzU3MzkgMTYuNjU0MUM4LjIyNjAxIDE3LjEyMjcgOC45ODU4MiAxNy4xMjI3IDkuNDU0NDQgMTYuNjU0MUMxMC44NjAzIDE1LjI0ODIgMTMuMTM5NyAxNS4yNDgyIDE0LjU0NTYgMTYuNjU0MUMxNS4wMTQyIDE3LjEyMjcgMTUuNzc0IDE3LjEyMjcgMTYuMjQyNiAxNi42NTQxQzE2LjcxMTMgMTYuMTg1NCAxNi43MTEzIDE1LjQyNTcgMTYuMjQyNiAxNC45NTY5QzEzLjg5OTUgMTIuNjEzOCAxMC4xMDA1IDEyLjYxMzggNy43NTczOSAxNC45NTY5QzcuMjg4NzUgMTUuNDI1NyA3LjI4ODc1IDE2LjE4NTQgNy43NTczOSAxNi42NTQxWiIgZmlsbD0iIzE5NkJERSIvPgo8L3N2Zz4K");
+
+/***/ }),
+
+/***/ "./src/Surveys/static/icons/toast/smile.svg":
+/*!**************************************************!*\
+  !*** ./src/Surveys/static/icons/toast/smile.svg ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ReactComponent: () => (/* binding */ SvgSmile),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+
+var SvgSmile = function SvgSmile(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none"
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    fill: "#196BDE",
+    fillRule: "evenodd",
+    d: "M12 21.6a9.6 9.6 0 0 0 9.6-9.6 9.6 9.6 0 1 0-9.6 9.6M8.4 10.8a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4m8.4-1.2a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0m-.557 6.642a1.2 1.2 0 1 0-1.697-1.697 3.6 3.6 0 0 1-5.092 0 1.2 1.2 0 0 0-1.697 1.697 6 6 0 0 0 8.486 0",
+    clipRule: "evenodd"
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMiAyMS41OTk5QzE3LjMwMiAyMS41OTk5IDIxLjYgMTcuMzAxOSAyMS42IDExLjk5OTlDMjEuNiA2LjY5Nzk3IDE3LjMwMiAyLjM5OTkgMTIgMi4zOTk5QzYuNjk4MDkgMi4zOTk5IDIuNDAwMDIgNi42OTc5NyAyLjQwMDAyIDExLjk5OTlDMi40MDAwMiAxNy4zMDE5IDYuNjk4MDkgMjEuNTk5OSAxMiAyMS41OTk5Wk04LjQwMDAyIDEwLjc5OTlDOS4wNjI3NiAxMC43OTk5IDkuNjAwMDIgMTAuMjYyNiA5LjYwMDAyIDkuNTk5OUM5LjYwMDAyIDguOTM3MTcgOS4wNjI3NiA4LjM5OTkgOC40MDAwMiA4LjM5OTlDNy43MzcyOSA4LjM5OTkgNy4yMDAwMiA4LjkzNzE3IDcuMjAwMDIgOS41OTk5QzcuMjAwMDIgMTAuMjYyNiA3LjczNzI5IDEwLjc5OTkgOC40MDAwMiAxMC43OTk5Wk0xNi44IDkuNTk5OUMxNi44IDEwLjI2MjYgMTYuMjYyOCAxMC43OTk5IDE1LjYgMTAuNzk5OUMxNC45MzczIDEwLjc5OTkgMTQuNCAxMC4yNjI2IDE0LjQgOS41OTk5QzE0LjQgOC45MzcxNyAxNC45MzczIDguMzk5OSAxNS42IDguMzk5OUMxNi4yNjI4IDguMzk5OSAxNi44IDguOTM3MTcgMTYuOCA5LjU5OTlaTTE2LjI0MjYgMTYuMjQyNEMxNi43MTEzIDE1Ljc3MzggMTYuNzExMyAxNS4wMTQxIDE2LjI0MjYgMTQuNTQ1M0MxNS43NzQgMTQuMDc2NyAxNS4wMTQyIDE0LjA3NjcgMTQuNTQ1NiAxNC41NDUzQzEzLjEzOTcgMTUuOTUxMyAxMC44NjAzIDE1Ljk1MTMgOS40NTQ0NCAxNC41NDUzQzguOTg1ODIgMTQuMDc2NyA4LjIyNjAxIDE0LjA3NjcgNy43NTczOSAxNC41NDUzQzcuMjg4NzUgMTUuMDE0MSA3LjI4ODc1IDE1Ljc3MzggNy43NTczOSAxNi4yNDI0QzEwLjEwMDUgMTguNTg1NiAxMy44OTk1IDE4LjU4NTYgMTYuMjQyNiAxNi4yNDI0WiIgZmlsbD0iIzE5NkJERSIvPgo8L3N2Zz4K");
+
+/***/ }),
+
+/***/ "./src/Surveys/components/App/index.jsx":
+/*!**********************************************!*\
+  !*** ./src/Surveys/components/App/index.jsx ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Toast__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Toast */ "./src/Surveys/components/Toast/index.jsx");
+
+
+const App = () => {
+  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "nfd-survey-app"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_Toast__WEBPACK_IMPORTED_MODULE_1__["default"], null));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
+
+/***/ }),
+
+/***/ "./src/Surveys/components/Toast/index.jsx":
+/*!************************************************!*\
+  !*** ./src/Surveys/components/Toast/index.jsx ***!
+  \************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -15,6 +255,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-toastify */ "./node_modules/react-toastify/dist/react-toastify.esm.mjs");
+/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n");
+/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _static_icons_toast__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../static/icons/toast */ "./src/Surveys/static/icons/toast/index.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../constants */ "./src/constants.js");
+
+
+
 
 
 const ToastContent = ({
@@ -31,35 +278,52 @@ const ToastContent = ({
     "data-survey-category": category,
     "data-survey-data": eventData
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "nfd-survey-toast__icon"
-  }, "Icon"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "nfd-survey-toast__comment"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    className: "nfd-survey-toast__comment__icon",
+    src: _static_icons_toast__WEBPACK_IMPORTED_MODULE_3__.comment,
+    alt: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Comment', 'wp-module-survey')
+  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "nfd-survey-toast__content"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "nfd-survey-toast__content__heading"
   }, heading), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "nfd-survey-subheading"
+    className: "nfd-survey-toast__content__subheading"
   }, subheading), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "nfd-survey-toast__content__buttons",
-    onClick: closeToast
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("button", {
-    className: "nfd-survey-toast__content__buttons__one",
+    onClick: closeToast,
+    onKeyDown: closeToast,
+    role: "button",
+    tabIndex: -1
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    className: "nfd-survey-toast__content__buttons--icon",
+    src: _static_icons_toast__WEBPACK_IMPORTED_MODULE_3__.angry,
+    alt: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Angry', 'wp-module-survey'),
     "data-survey-option": 1
-  }, "1"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("button", {
-    className: "nfd-survey-toast__content__buttons__two",
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    className: "nfd-survey-toast__content__buttons--icon",
+    src: _static_icons_toast__WEBPACK_IMPORTED_MODULE_3__.sad,
+    alt: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Not Happy (Sad)', 'wp-module-survey'),
     "data-survey-option": 2
-  }, "2"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("button", {
-    className: "nfd-survey-toast__content__buttons__three",
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    className: "nfd-survey-toast__content__buttons--icon",
+    src: _static_icons_toast__WEBPACK_IMPORTED_MODULE_3__.lame,
+    alt: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Lame', 'wp-module-survey'),
     "data-survey-option": 3
-  }, "3"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("button", {
-    className: "nfd-survey-toast__content__buttons__four",
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    className: "nfd-survey-toast__content__buttons--icon",
+    src: _static_icons_toast__WEBPACK_IMPORTED_MODULE_3__.smile,
+    alt: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Smiley', 'wp-module-survey'),
     "data-survey-option": 4
-  }, "4"), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("button", {
-    className: "nfd-survey-toast__content__buttons__five",
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    className: "nfd-survey-toast__content__buttons--icon",
+    src: _static_icons_toast__WEBPACK_IMPORTED_MODULE_3__.happy,
+    alt: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Happy', 'wp-module-survey'),
     "data-survey-option": 5
-  }, "5"))));
+  }))));
 };
 const Toast = () => {
-  window.nfdSurvey?.queue?.toast.forEach(survey => {
+  _constants__WEBPACK_IMPORTED_MODULE_4__.surveys?.toast.forEach(survey => {
     (0,react_toastify__WEBPACK_IMPORTED_MODULE_1__.toast)((0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(ToastContent, {
       action: survey.action,
       category: survey.category,
@@ -70,11 +334,41 @@ const Toast = () => {
       position: 'bottom-right'
     });
   });
-  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react_toastify__WEBPACK_IMPORTED_MODULE_1__.ToastContainer, {
+  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react_toastify__WEBPACK_IMPORTED_MODULE_1__.ToastContainer, {
     autoClose: false
-  }));
+  });
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Toast);
+
+/***/ }),
+
+/***/ "./src/Surveys/static/icons/toast/index.js":
+/*!*************************************************!*\
+  !*** ./src/Surveys/static/icons/toast/index.js ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   angry: () => (/* reexport safe */ _angry_svg__WEBPACK_IMPORTED_MODULE_1__["default"]),
+/* harmony export */   comment: () => (/* reexport safe */ _comment_svg__WEBPACK_IMPORTED_MODULE_0__["default"]),
+/* harmony export */   happy: () => (/* reexport safe */ _happy_svg__WEBPACK_IMPORTED_MODULE_5__["default"]),
+/* harmony export */   lame: () => (/* reexport safe */ _lame_svg__WEBPACK_IMPORTED_MODULE_3__["default"]),
+/* harmony export */   sad: () => (/* reexport safe */ _sad_svg__WEBPACK_IMPORTED_MODULE_2__["default"]),
+/* harmony export */   smile: () => (/* reexport safe */ _smile_svg__WEBPACK_IMPORTED_MODULE_4__["default"])
+/* harmony export */ });
+/* harmony import */ var _comment_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./comment.svg */ "./src/Surveys/static/icons/toast/comment.svg");
+/* harmony import */ var _angry_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./angry.svg */ "./src/Surveys/static/icons/toast/angry.svg");
+/* harmony import */ var _sad_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sad.svg */ "./src/Surveys/static/icons/toast/sad.svg");
+/* harmony import */ var _lame_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./lame.svg */ "./src/Surveys/static/icons/toast/lame.svg");
+/* harmony import */ var _smile_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./smile.svg */ "./src/Surveys/static/icons/toast/smile.svg");
+/* harmony import */ var _happy_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./happy.svg */ "./src/Surveys/static/icons/toast/happy.svg");
+
+
+
+
+
+
 
 /***/ }),
 
@@ -89,19 +383,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   SURVEYS_DIV: () => (/* binding */ SURVEYS_DIV),
 /* harmony export */   dataRestRoute: () => (/* binding */ dataRestRoute),
 /* harmony export */   eventsAPI: () => (/* binding */ eventsAPI),
+/* harmony export */   surveys: () => (/* binding */ surveys),
 /* harmony export */   wpRestURL: () => (/* binding */ wpRestURL)
 /* harmony export */ });
-const SURVEYS_DIV = 'nfd-surveys';
-const wpRestURL = window.nfdSurveyDataAttrListener.restUrl;
+const SURVEYS_DIV = 'nfd-survey';
+const surveys = window.nfdSurveySurveys?.queue;
+const wpRestURL = window.nfdSurveyDataAttrListener?.restUrl;
 const dataRestRoute = 'newfold-data/v1';
 const eventsAPI = `${wpRestURL}/${dataRestRoute}/events`;
 
 /***/ }),
 
-/***/ "./src/styles/app.scss":
-/*!*****************************!*\
-  !*** ./src/styles/app.scss ***!
-  \*****************************/
+/***/ "./src/Surveys/styles/app.scss":
+/*!*************************************!*\
+  !*** ./src/Surveys/styles/app.scss ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -137,6 +433,16 @@ module.exports = window["wp"]["domReady"];
 /***/ ((module) => {
 
 module.exports = window["wp"]["element"];
+
+/***/ }),
+
+/***/ "@wordpress/i18n":
+/*!******************************!*\
+  !*** external ["wp","i18n"] ***!
+  \******************************/
+/***/ ((module) => {
+
+module.exports = window["wp"]["i18n"];
 
 /***/ }),
 
@@ -253,19 +559,19 @@ const c=e=>"number"==typeof e&&!isNaN(e),d=e=>"string"==typeof e,u=e=>"function"
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-/*!************************!*\
-  !*** ./src/surveys.js ***!
-  \************************/
+/*!********************************!*\
+  !*** ./src/Surveys/surveys.js ***!
+  \********************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/app.scss */ "./src/styles/app.scss");
+/* harmony import */ var _styles_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/app.scss */ "./src/Surveys/styles/app.scss");
 /* harmony import */ var _wordpress_dom_ready__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @wordpress/dom-ready */ "@wordpress/dom-ready");
 /* harmony import */ var _wordpress_dom_ready__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_dom_ready__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./constants */ "./src/constants.js");
-/* harmony import */ var _components_Toast__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Toast */ "./src/components/Toast/index.jsx");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../constants */ "./src/constants.js");
+/* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/App */ "./src/Surveys/components/App/index.jsx");
 
 /**
  * Styles.
@@ -300,7 +606,7 @@ const renderModal = elementId => {
   if (!document.getElementById(elementId)) {
     document.body.append(modalRoot);
   }
-  (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_3__.render)((0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_Toast__WEBPACK_IMPORTED_MODULE_5__["default"], null), modalRoot);
+  (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_3__.render)((0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_App__WEBPACK_IMPORTED_MODULE_5__["default"], null), modalRoot);
 };
 ((window.newfold = window.newfold || {}).Survey = window.newfold.Survey || {}).surveys = __webpack_exports__;
 /******/ })()
