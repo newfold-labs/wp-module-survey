@@ -1,6 +1,6 @@
 {
   "name": "@newfold-labs/wp-module-survey",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Newfold module to collect customer satisfaction feedback via surveys in the WordPress admin dashboard.",
   "license": "GPL-2.0-or-later",
   "private": true,
