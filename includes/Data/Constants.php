@@ -15,7 +15,7 @@ class Constants {
 	 */
 	public function __construct( $container ) {
 		if ( ! defined( 'NFD_SURVEY_VERSION' ) ) {
-			define( 'NFD_SURVEY_VERSION', '1.0.0' );
+			define( 'NFD_SURVEY_VERSION', '1.0.1' );
 		}
 		if ( ! defined( 'NFD_SURVEY_BUILD_DIR' ) && defined( 'NFD_SURVEY_VERSION' ) ) {
 			define( 'NFD_SURVEY_BUILD_DIR', dirname( __DIR__, 2 ) . '/build/' . NFD_SURVEY_VERSION );
