@@ -31,7 +31,7 @@ A Newfold module to collect customer satisfaction feedback via surveys in the Wo
  ```bash
  composer require newfold-labs/wp-module-survey
  ```
-[More on NewFold WordPress Modules](https://github.com/newfold-labs/wp-module-loader)
+[More on Newfold WordPress Modules](https://github.com/newfold-labs/wp-module-loader)
 
 ## Usage
 
