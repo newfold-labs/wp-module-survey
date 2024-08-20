@@ -48,7 +48,7 @@ class SurveyQueueListener {
 
 			if ( is_readable( $asset_file ) ) {
 
-				$asset = include_once $asset_file;
+				$asset = include $asset_file;
 
 				wp_register_script(
 					'nfd-survey-surveys',
