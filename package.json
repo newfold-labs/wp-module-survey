@@ -9,7 +9,7 @@
     "email": "devarunshenoy99@gmail.com"
   },
   "devDependencies": {
-    "@testing-library/cypress": "^10.0.1",
+    "@testing-library/cypress": "^10.0.3",
     "@wordpress/base-styles": "^4.39.0",
     "@wordpress/env": "^9.0.0",
     "@wordpress/icons": "^9.39.0",
