@@ -21,7 +21,7 @@ class Constants {
 			define( 'NFD_SURVEY_BUILD_DIR', dirname( __DIR__, 2 ) . '/build/' . NFD_SURVEY_VERSION );
 		}
 		if ( ! defined( 'NFD_SURVEY_BUILD_URL' && defined( 'NFD_SURVEY_VERSION' ) ) ) {
-			define( 'NFD_SURVEY_BUILD_URL', $container->plugin()->url . '/vendor/newfold-labs/wp-module-survey/build/' . NFD_SURVEY_VERSION );
+			define( 'NFD_SURVEY_BUILD_URL', $container->plugin()->url . 'vendor/newfold-labs/wp-module-survey/build/' . NFD_SURVEY_VERSION );
 		}
 	}
 }
