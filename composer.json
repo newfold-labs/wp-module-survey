@@ -17,22 +17,47 @@
       "bootstrap.php"
     ]
   },
-  "repositories": {
-    "newfold": {
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
       "type": "composer",
       "url": "https://newfold-labs.github.io/satis/",
       "only": [
         "newfold-labs/*"
       ]
     }
-  },
+  ],
   "require-dev": {
     "newfold-labs/wp-php-standards": "^1.2",
-    "wp-cli/i18n-command": "^2.6.5"
+    "wp-cli/i18n-command": "^2.6.5",
+    "johnpbloch/wordpress": "@stable",
+    "lucatume/wp-browser": "*",
+    "newfold-labs/wp-module-loader": "^1.0",
+    "phpunit/phpcov": "*"
+  },
+  "scripts": {
+    "test": "codecept run wpunit",
+    "test-coverage": "codecept run wpunit --coverage wpunit.cov && phpcov merge --php tests/_output/merged.cov --html tests/_output/html tests/_output && echo \"open tests/_output/html/index.html to view the report\""
+  },
+  "scripts-descriptions": {
+    "test": "Run wpunit tests.",
+    "test-coverage": "Run wpunit tests with coverage."
   },
   "config": {
     "allow-plugins": {
-      "dealerdirect/phpcodesniffer-composer-installer": true
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "composer/installers": true,
+      "johnpbloch/wordpress-core-installer": true
+    },
+    "platform": {
+      "php": "7.4.33"
+    },
+    "preferred-install": {
+      "newfold-labs/*": "source",
+      "*": "dist"
     }
   }
 }

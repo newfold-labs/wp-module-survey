@@ -59,7 +59,7 @@ class Toast {
 	 * @param string $heading The heading to be displayed on the Toast.
 	 * @param string $subheading The subheading or description to be displayed on the Toast.
 	 */
-	public function __construct( $action, $category, $data = array(), $heading, $subheading, ) {
+	public function __construct( $action, $category, $data = array(), $heading, $subheading ) {
 		$this->action     = $action;
 		$this->category   = $category;
 		$this->data       = $data;
