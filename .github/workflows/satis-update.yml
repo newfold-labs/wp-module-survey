@@ -5,6 +5,8 @@ on:
     types:
       - created
 
+permissions: {}
+
 jobs:
   webhook:
     name: Send Webhook
