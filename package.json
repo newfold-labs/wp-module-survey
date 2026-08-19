@@ -24,7 +24,7 @@
     "start": "wp-scripts start ./src/Surveys/surveys.js ./src/Scripts/dataAttrListener.js"
   },
   "dependencies": {
-    "@wordpress/element": "^6.1.0",
+    "@wordpress/element": "^8.5.0",
     "react-toastify": "^10.0.5"
   },
   "overrides": {
