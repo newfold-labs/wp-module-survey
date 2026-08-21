@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1787327757">
-  <project timestamp="1787327757">
+<coverage generated="1787329767">
+  <project timestamp="1787329767">
     <file name="/home/runner/work/wp-module-survey/wp-module-survey/bootstrap.php">
       <line num="11" type="stmt" count="0"/>
       <line num="12" type="stmt" count="0"/>
