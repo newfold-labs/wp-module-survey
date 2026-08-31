@@ -13,7 +13,7 @@
     "@wordpress/base-styles": "^12.1.0",
     "@wordpress/env": "^11.13.0",
     "@wordpress/icons": "^15.4.0",
-    "@wordpress/scripts": "^34.1.0",
+    "@wordpress/scripts": "^34.2.0",
     "axe-core": "^4.13.0",
     "cypress": "^13.6.1",
     "cypress-axe": "^1.7.0",
