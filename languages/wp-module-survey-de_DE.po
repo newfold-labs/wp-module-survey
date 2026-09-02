@@ -1,43 +1,44 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/newfold-labs/wp-module-survey/issues\n"
+"POT-Creation-Date: 2025-02-13T09:55:55+00:00\n"
+"PO-Revision-Date: 2026-09-02T16:21:46+00:00\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-02-13T09:55:55+00:00\n"
-"PO-Revision-Date: 2026-09-02T15:22:57+00:00\n"
-"Language: de\n"
-"X-Generator: WP-CLI 2.12.0\n"
-"X-Domain: wp-module-survey\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: wp-module-survey\n"
+"X-Generator: WP-CLI 2.12.0\n"
 
-#: bootstrap.php:17
-msgid "wp-module-survey"
-msgstr "wp-module-survey"
+#: src/Surveys/components/Toast/index.jsx:53
+msgid "Angry"
+msgstr "Wütend"
 
 #: src/Surveys/components/Toast/index.jsx:33
 msgid "Comment"
 msgstr "Kommentar"
 
-#: src/Surveys/components/Toast/index.jsx:53
-msgid "Angry"
-msgstr ""
-
-#: src/Surveys/components/Toast/index.jsx:59
-msgid "Not Happy (Sad)"
-msgstr ""
+#: src/Surveys/components/Toast/index.jsx:77
+msgid "Happy"
+msgstr "Glücklich"
 
 #: src/Surveys/components/Toast/index.jsx:65
 msgid "Lame"
-msgstr ""
+msgstr "Lahm"
+
+#: src/Surveys/components/Toast/index.jsx:59
+msgid "Not Happy (Sad)"
+msgstr "Nicht glücklich (traurig)"
 
 #: src/Surveys/components/Toast/index.jsx:71
 msgid "Smiley"
-msgstr ""
+msgstr "Smiley"
 
-#: src/Surveys/components/Toast/index.jsx:77
-msgid "Happy"
-msgstr ""
+#: bootstrap.php:17
+msgid "wp-module-survey"
+msgstr "wp-module-survey"

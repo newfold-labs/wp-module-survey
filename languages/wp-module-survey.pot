@@ -12,30 +12,30 @@ msgstr ""
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: wp-module-survey\n"
 
-#: bootstrap.php:17
-msgid "wp-module-survey"
+#: src/Surveys/components/Toast/index.jsx:53
+msgid "Angry"
 msgstr ""
 
 #: src/Surveys/components/Toast/index.jsx:33
 msgid "Comment"
 msgstr ""
 
-#: src/Surveys/components/Toast/index.jsx:53
-msgid "Angry"
-msgstr ""
-
-#: src/Surveys/components/Toast/index.jsx:59
-msgid "Not Happy (Sad)"
+#: src/Surveys/components/Toast/index.jsx:77
+msgid "Happy"
 msgstr ""
 
 #: src/Surveys/components/Toast/index.jsx:65
 msgid "Lame"
 msgstr ""
 
+#: src/Surveys/components/Toast/index.jsx:59
+msgid "Not Happy (Sad)"
+msgstr ""
+
 #: src/Surveys/components/Toast/index.jsx:71
 msgid "Smiley"
 msgstr ""
 
-#: src/Surveys/components/Toast/index.jsx:77
-msgid "Happy"
+#: bootstrap.php:17
+msgid "wp-module-survey"
 msgstr ""
