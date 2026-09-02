@@ -5,7 +5,7 @@ return [
 	'language' => 'de',
 	'project-id-version' => '',
 	'pot-creation-date' => '2025-02-13T09:55:55+00:00',
-	'po-revision-date' => '2026-08-19T21:51:52+00:00',
+	'po-revision-date' => '2026-09-02T15:22:57+00:00',
 	'x-generator' => 'WP-CLI 2.12.0',
 	'messages' => [
 		'wp-module-survey' => 'wp-module-survey',
