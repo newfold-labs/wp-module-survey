@@ -16,11 +16,11 @@ msgstr ""
 
 #: bootstrap.php:17
 msgid "wp-module-survey"
-msgstr ""
+msgstr "wp-module-survey"
 
 #: src/Surveys/components/Toast/index.jsx:33
 msgid "Comment"
-msgstr ""
+msgstr "Comentario"
 
 #: src/Surveys/components/Toast/index.jsx:53
 msgid "Angry"
